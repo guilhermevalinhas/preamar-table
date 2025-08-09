@@ -5,12 +5,12 @@ import { getStorage } from 'firebase/storage'
 import { useEffect, useState } from 'react'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyBCHEKIBE3-NVFFwarLVQo_X-ZLqQ-5yAE",
+  authDomain: "preamar-table.firebaseapp.com",
+  projectId: "preamar-table",
+  storageBucket: "preamar-table.firebasestorage.app",
+  messagingSenderId: "650358520021",
+  appId: "1:650358520021:web:639e3253d3c886b5800a5c"
 }
 
 const app = initializeApp(firebaseConfig)
