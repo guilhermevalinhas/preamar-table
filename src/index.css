@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --currency-symbol: "£"; }
+
+/* Better tap targets on mobile */
+button, a, input, select, textarea {
+  touch-action: manipulation;
+}
